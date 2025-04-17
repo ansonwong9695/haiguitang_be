@@ -25,6 +25,7 @@ class AiManager:
         :param chat_message_list: 聊天消息列表。
         :return: AI的回复内容。
         """
+
         completion = service.bot_chat.completions.create(
             model="bot-20250316173849-89vzg",  # bot-20250316173849-89vzg 为您当前的智能体的ID，注意此处与Chat API存在差异。差异对比详见 SDK使用指南
             messages=chat_message_list,

@@ -1,3 +1,7 @@
+#mac 
+# General
+.DS_Store
+*.swp
 # Python
 *.pyc
 *.pyo
