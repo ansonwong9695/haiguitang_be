@@ -1,7 +1,7 @@
 import pytest
 
 # from haiguitang_be.manager.ai_manager import AiManager
-from manager.ai_manager import AiManager
+from haiguitang_be.manager.ai_manager import AiManager
 
 
 def test_do_chat_with_real_service():
